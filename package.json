@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "http://localhost:3000",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
     "client": "npm run start --prefix ../frontend",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
-  "author": "Filip Wolf",
+  "author": "Krunchas",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.22"
