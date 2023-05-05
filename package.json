@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:3000",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index.js",
@@ -16,9 +15,11 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "concurrently": "^8.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mysql2": "^3.2.4"
+    "mysql2": "^3.2.4",
+    "react-scripts": "^5.0.1"
   }
 }
